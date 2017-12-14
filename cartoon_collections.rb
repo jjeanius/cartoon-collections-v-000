@@ -28,4 +28,5 @@ def find_the_cheese(cheese_types)
   end
 end
 
-cheese_types {"cheddar"}
+cheese_types "#{cheese_types}"
+end
