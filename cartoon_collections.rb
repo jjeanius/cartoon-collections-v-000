@@ -29,7 +29,8 @@ def find_the_cheese(cheese_types)
 end
 
 def find_the_cheese(cheese_types)
-  if ["cheddar", "gouda", "camembert"].detect{|i| i.cheese_types?}
+    cheese_types = ["cheddar", "gouda", "camembert"]
+  if cheese_types.detect{|i| i.cheddar?}
     return "#{cheese_types}"
   else
     nil
