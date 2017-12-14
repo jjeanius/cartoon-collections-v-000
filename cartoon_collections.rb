@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |element|
-  return "#{element.upcase}!"
+  return "#{element}".upcase.split("!")
 end
 end
 
@@ -17,4 +17,5 @@ end
 def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+
 end
