@@ -8,8 +8,8 @@ def summon_captain_planet(planeteer_calls)
 i = 0
 planeteer_calls = []
 while i <  planeteer_calls.length
-collection<< yield (planeteer_calls[i])
-i + = 1
+collection<< yield(planeteer_calls[i])
+i += 1
 end
 planeteer_calls
 end
