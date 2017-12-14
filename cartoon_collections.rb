@@ -6,8 +6,8 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |element|
-  "#{element}".upcase.split("!")
-end
+  "#{element}"
+end.upcase("!")
 end
 
 def long_planeteer_calls# code an argument here
