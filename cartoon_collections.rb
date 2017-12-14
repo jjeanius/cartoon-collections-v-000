@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
 i = 0
-planeteer_calls = []
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 while i <  planeteer_calls.length
 collection<< yield(planeteer_calls[i])
 i += 1
