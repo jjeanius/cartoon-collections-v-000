@@ -30,7 +30,7 @@ end
 
 def find_the_cheese(cheese_types)
     cheese_types = ["cheddar", "gouda", "camembert"]
-  if ["cheddar", "gouda", "camembert"].detect{|i|i.cheese_types[0]}
+  if ["cheddar", "gouda", "camembert"].detect do {|i|i.cheese_types[0]}
     return "#{cheese_types}"
   else
     nil
