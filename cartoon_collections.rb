@@ -28,5 +28,4 @@ def find_the_cheese(cheese_types)
   end
 end
 
-cheese_types
-return "cheddar"
+cheese_types {"cheddar"}
