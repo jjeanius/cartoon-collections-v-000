@@ -11,8 +11,10 @@ while i <  planeteer_calls.length
 collection<< yield(planeteer_calls[i])
 i += 1
 end
-planeteer_calls
+puts planeteer_calls
 end
+
+
 
 
 def long_planeteer_calls# code an argument here
