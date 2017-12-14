@@ -28,9 +28,9 @@ def find_the_cheese(cheese_types)
   end
 end
 
-def find_the_cheese(cheese_types)
+def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if cheese_types.include? cheese_types
+  if cheese_types.include? cheese
     return "#{cheese_types}"[0]
   else
     nil
