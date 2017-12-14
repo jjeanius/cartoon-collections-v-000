@@ -35,4 +35,3 @@ def find_the_cheese(cheese_types)
     nil
   end
 end
-
