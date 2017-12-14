@@ -11,7 +11,7 @@ while i <  planeteer_calls.length
 collection<< yield(planeteer_calls[i])
 i += 1
 end
-planeteer_calls.split(" ")
+planeteer_calls
 end
 
 
